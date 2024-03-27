@@ -2851,14 +2851,15 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_MEC_5E"
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0.635 5.715 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2866,8 +2867,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2875,7 +2876,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2883,8 +2884,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2892,7 +2893,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2910,18 +2911,9 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -1.778 2.54)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2933,7 +2925,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -2945,31 +2937,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2980,7 +2948,7 @@
 					)
 				)
 				(circle
-					(center 1.778 2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2991,7 +2959,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3009,7 +2977,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3019,42 +2987,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3672,28 +3604,10 @@
 		(uuid "8e8246d3-09b7-4621-b5ab-e3358de81694")
 	)
 	(junction
-		(at 180.34 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a314019b-c89b-419b-8af2-2d6db4c6f4fa")
-	)
-	(junction
-		(at 87.63 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a60c62f9-ae6f-4e45-acc4-e3a9d465071b")
-	)
-	(junction
 		(at 140.97 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae06e9be-75da-43af-8b38-b70a81fa9b39")
-	)
-	(junction
-		(at 73.66 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0e95a38-bc84-4799-b8c3-fcecd4a47224")
 	)
 	(junction
 		(at 115.57 41.91)
@@ -3706,12 +3620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4c15d6f-cfb4-4db9-98db-a55d2dcb7dae")
-	)
-	(junction
-		(at 166.37 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd7cb0a2-8e5d-40b0-8df8-cf439319ab14")
 	)
 	(junction
 		(at 140.97 125.73)
@@ -3881,6 +3789,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 120.65) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001233a2-d417-47aa-b3b2-8d81e323bf8f")
+	)
+	(wire
+		(pts
 			(xy 95.25 113.03) (xy 102.87 113.03)
 		)
 		(stroke
@@ -3888,16 +3806,6 @@
 			(type default)
 		)
 		(uuid "0015b134-6ac8-4c38-9ad2-2a1882bd41e5")
-	)
-	(wire
-		(pts
-			(xy 73.66 59.69) (xy 68.58 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023a8391-aada-44bf-a924-0b0299b058db")
 	)
 	(wire
 		(pts
@@ -4008,26 +3916,6 @@
 			(type default)
 		)
 		(uuid "123d2a6b-8981-4370-ad0e-a391962cfecf")
-	)
-	(wire
-		(pts
-			(xy 180.34 120.65) (xy 180.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12cb18de-94ec-459c-b14f-ed412f8aa692")
-	)
-	(wire
-		(pts
-			(xy 87.63 53.34) (xy 87.63 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "160ac496-6b8c-4be6-90cf-e801ff07d87b")
 	)
 	(wire
 		(pts
@@ -4291,16 +4179,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 143.51) (xy 152.4 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43381035-8ef3-4185-9407-6440134341f4")
-	)
-	(wire
-		(pts
 			(xy 152.4 78.74) (xy 148.59 78.74)
 		)
 		(stroke
@@ -4321,16 +4199,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 59.69) (xy 87.63 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48f9fc10-45fb-4344-ac21-eae7a6f47375")
-	)
-	(wire
-		(pts
 			(xy 149.86 208.28) (xy 158.75 208.28)
 		)
 		(stroke
@@ -4348,16 +4216,6 @@
 			(type default)
 		)
 		(uuid "4c6bae0c-3dcf-4bdd-a799-6060322fc804")
-	)
-	(wire
-		(pts
-			(xy 180.34 123.19) (xy 185.42 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d7854d1-31f0-4448-9725-fba60cf720c9")
 	)
 	(wire
 		(pts
@@ -4431,7 +4289,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 120.65) (xy 167.64 120.65)
+			(xy 138.43 120.65) (xy 167.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4461,17 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 57.15) (xy 87.63 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e62e91-768e-4fe3-bf37-797ceb0e9a0b")
-	)
-	(wire
-		(pts
-			(xy 76.2 57.15) (xy 73.66 57.15)
+			(xy 90.17 57.15) (xy 87.63 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4571,16 +4419,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 59.69) (xy 73.66 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "736d0097-ce6e-4c16-884f-6b577dc0a1d1")
-	)
-	(wire
-		(pts
 			(xy 135.89 49.53) (xy 123.19 49.53)
 		)
 		(stroke
@@ -4588,16 +4426,6 @@
 			(type default)
 		)
 		(uuid "76382f08-88b0-4d87-a94f-87874f545110")
-	)
-	(wire
-		(pts
-			(xy 138.43 120.65) (xy 166.37 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb84316-3b24-492c-b4b4-deb926830491")
 	)
 	(bus
 		(pts
@@ -4681,7 +4509,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 57.15) (xy 135.89 57.15)
+			(xy 100.33 57.15) (xy 135.89 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4881,6 +4709,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 120.65) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfb245f-b312-4f5b-aefd-f20ae2a6e4be")
+	)
+	(wire
+		(pts
 			(xy 138.43 113.03) (xy 140.97 113.03)
 		)
 		(stroke
@@ -4991,16 +4829,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 41.91) (xy 87.63 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9f5db2-e347-4d04-96d5-2ec6fa9ed0f9")
-	)
-	(wire
-		(pts
 			(xy 138.43 100.33) (xy 140.97 100.33)
 		)
 		(stroke
@@ -5061,16 +4889,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 123.19) (xy 180.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e22e1a-c027-47eb-a1f8-4952c5d4336a")
-	)
-	(wire
-		(pts
 			(xy 85.09 95.25) (xy 102.87 95.25)
 		)
 		(stroke
@@ -5118,6 +4936,16 @@
 			(type default)
 		)
 		(uuid "cc30a2bc-61df-4a74-b2c4-1581eb04dc49")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 152.4 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0b09a2-258c-43b6-869e-0170fa5037e5")
 	)
 	(wire
 		(pts
@@ -5231,16 +5059,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 57.15) (xy 86.36 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe9ef00-80f1-4fad-a49d-b95ed029448f")
-	)
-	(wire
-		(pts
 			(xy 170.18 217.17) (xy 170.18 218.44)
 		)
 		(stroke
@@ -5301,16 +5119,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 120.65) (xy 166.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3326d3b-574b-4e47-a259-c5559c07b227")
-	)
-	(wire
-		(pts
 			(xy 172.72 44.45) (xy 172.72 45.72)
 		)
 		(stroke
@@ -5321,7 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 57.15) (xy 73.66 59.69)
+			(xy 87.63 57.15) (xy 87.63 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5378,16 +5186,6 @@
 			(type default)
 		)
 		(uuid "ebebe482-5b5e-4017-883c-e8bfe3e1df4e")
-	)
-	(wire
-		(pts
-			(xy 167.64 123.19) (xy 166.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed6f5a09-6ec8-4be2-a45f-061d7550431f")
 	)
 	(wire
 		(pts
@@ -5478,16 +5276,6 @@
 			(type default)
 		)
 		(uuid "fda17d38-7038-4ab6-b047-bd8e5cd1434f")
-	)
-	(wire
-		(pts
-			(xy 177.8 120.65) (xy 180.34 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf4cb3e-42a7-40cf-8642-fe6f46056c87")
 	)
 	(wire
 		(pts
@@ -6871,19 +6659,8 @@
 		)
 		(uuid "f90aeb1b-c73f-4c4a-a478-e5775c0b422a")
 	)
-	(label "SPI_MISO"
-		(at 140.97 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18fafc94-2385-4d6a-a786-d09c74ac82a5")
-	)
 	(label "IRQ_TO_REMA"
-		(at 140.97 130.81 0)
+		(at 157.48 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6891,7 +6668,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1bd7d0f1-2a79-4a83-8731-287ac619a93c")
+		(uuid "048da870-f2d9-4d25-9b9b-bb9abdc8e3ab")
 	)
 	(label "SPI_SCK"
 		(at 149.86 195.58 0)
@@ -6904,6 +6681,17 @@
 		)
 		(uuid "211b3374-639b-43e9-9f11-945c84e065b3")
 	)
+	(label "SPI_MOSI"
+		(at 143.51 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "261d8ef3-9444-4ade-b6dc-7ee35edd7b11")
+	)
 	(label "CIAA_GPIO5"
 		(at 41.91 83.82 0)
 		(fields_autoplaced yes)
@@ -6915,17 +6703,6 @@
 		)
 		(uuid "27d81a70-44cf-41f5-94eb-ae72038ac33c")
 	)
-	(label "SPI_MOSI"
-		(at 140.97 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29d3b159-9df3-4914-bc17-3af573156e3f")
-	)
 	(label "SPI_CS"
 		(at 184.15 195.58 180)
 		(fields_autoplaced yes)
@@ -6936,28 +6713,6 @@
 			(justify right bottom)
 		)
 		(uuid "30aafca9-946b-4719-a82b-65d8f4844dd8")
-	)
-	(label "GND"
-		(at 140.97 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31657f2f-31a2-4519-b289-f13af4037c45")
-	)
-	(label "SPI_ERR"
-		(at 140.97 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3206914b-ff17-4c4b-b61e-f8d94c387cff")
 	)
 	(label "GND"
 		(at 149.86 193.04 0)
@@ -6980,6 +6735,17 @@
 			(justify left bottom)
 		)
 		(uuid "5244013c-bff5-449f-a6a6-bc9804e33495")
+	)
+	(label "SPI_ERR"
+		(at 144.78 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a0f696a-60ce-46eb-b4f6-c18573431134")
 	)
 	(label "SPI_MISO"
 		(at 184.15 190.5 180)
@@ -7014,6 +6780,17 @@
 		)
 		(uuid "768e025d-7df5-4a59-a939-affbe14c5cda")
 	)
+	(label "SPI_SCK"
+		(at 144.78 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79e15bec-02d5-46fe-9d2e-3ca8bcb34340")
+	)
 	(label "CIAA_GPIO4"
 		(at 41.91 116.84 0)
 		(fields_autoplaced yes)
@@ -7046,6 +6823,17 @@
 			(justify left bottom)
 		)
 		(uuid "a2790955-8858-4b9e-a71c-9b0314af9b53")
+	)
+	(label "SPI_CS"
+		(at 146.05 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4310feb-088c-47d8-adff-3d5b5378fa83")
 	)
 	(label "CIAA_GPIO9"
 		(at 41.91 133.35 0)
@@ -7080,17 +6868,6 @@
 		)
 		(uuid "a88a7319-4eb3-4618-abc7-f5e6767a9aea")
 	)
-	(label "SPI_CS"
-		(at 140.97 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd3410ed-7fde-408a-865b-99b037d2f319")
-	)
 	(label "SPI_ERR"
 		(at 149.86 208.28 0)
 		(fields_autoplaced yes)
@@ -7102,8 +6879,8 @@
 		)
 		(uuid "c732e655-5106-4f95-8145-9a835017a734")
 	)
-	(label "SPI_SCK"
-		(at 140.97 135.89 0)
+	(label "SPI_MISO"
+		(at 143.51 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7111,7 +6888,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d755a6b3-04ef-48c8-8ed9-1fdc3aa0a6bf")
+		(uuid "d0c0a380-24cc-4610-bab7-8c3db4596173")
+	)
+	(label "GND"
+		(at 148.59 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efe95902-ca18-43c2-a3dd-9939dddb9fe0")
 	)
 	(hierarchical_label "DOUT2"
 		(shape output)
@@ -8192,81 +7980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 81.28 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40043b78-fa55-445c-b732-f18a210eac47")
-		(property "Reference" "SW2"
-			(at 81.28 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5E"
-			(at 81.28 53.467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
-			(at 81.28 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 81.28 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9bda019-c5f6-4451-90f3-659b632d89cc")
-		)
-		(pin "2"
-			(uuid "c49ecae9-6ccb-4e48-937f-73ab5691373d")
-		)
-		(pin "3"
-			(uuid "80802776-c849-4c37-b1dd-022b0992a533")
-		)
-		(pin "4"
-			(uuid "cf163200-70e8-4b4f-848b-6fbbb7a77583")
-		)
-		(instances
-			(project "PonchoRema"
-				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 170.18 213.36 90)
 		(unit 1)
@@ -8276,7 +7989,7 @@
 		(dnp no)
 		(uuid "449a24a7-7d60-443f-ab74-534f0abd1959")
 		(property "Reference" "D17"
-			(at 165.1 214.9475 0)
+			(at 175.26 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +7997,7 @@
 			)
 		)
 		(property "Value" "LedRed"
-			(at 167.64 214.9475 0)
+			(at 175.26 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,10 +8348,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66fd58d6-e25f-4c16-aaa4-12cfe26f0732")
 		(property "Reference" "R2"
-			(at 162.56 201.93 90)
+			(at 162.56 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8358,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 162.56 204.47 90)
+			(at 162.56 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,80 +8481,6 @@
 			(project "PonchoRema"
 				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
 					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 172.72 123.19 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cd0eabd-ba60-4382-ad0c-b3d20edb9431")
-		(property "Reference" "SW1"
-			(at 172.72 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5E"
-			(at 172.72 116.967 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fea49de8-12c4-4d9d-afc3-62554248c28b")
-		)
-		(pin "2"
-			(uuid "9834ddc9-7e09-4fa4-89d2-c78f36a8db10")
-		)
-		(pin "3"
-			(uuid "8971120d-9bc3-4962-a002-c3a894007b3f")
-		)
-		(pin "4"
-			(uuid "e6012b70-131d-4b1c-bad9-f0dc23fa3c97")
-		)
-		(instances
-			(project "PonchoRema"
-				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9125,7 +8763,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 59.69 0)
+		(at 87.63 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9134,7 +8772,7 @@
 		(dnp no)
 		(uuid "8cb9178e-f03f-47e2-96e8-bd00187b4794")
 		(property "Reference" "#PWR064"
-			(at 68.58 66.04 0)
+			(at 87.63 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +8781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 63.5 0)
+			(at 87.63 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +8789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 59.69 0)
+			(at 87.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,7 +8798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 59.69 0)
+			(at 87.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +8807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 59.69 0)
+			(at 87.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,7 +9065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 104.14 41.91 0)
 			(effects
 				(font
@@ -9467,76 +9105,6 @@
 			(project "PonchoRema"
 				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 49.53 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0c7d20b-8349-4f70-aca5-bb86d8251e8e")
-		(property "Reference" "R61"
-			(at 90.17 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100K"
-			(at 90.17 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 89.408 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9edb4473-8c7d-430b-bf7e-c82f99e0ac6a")
-		)
-		(pin "2"
-			(uuid "b628f88b-a1ed-40db-8a4e-b90cf1870e20")
-		)
-		(instances
-			(project "PonchoRema"
-				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
-					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -9845,6 +9413,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 95.25 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1855528-1481-447a-b6ef-01701cc42c98")
+		(property "Reference" "SW2"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5d2523f-8c9d-41aa-afee-5f09d7b4a412")
+		)
+		(pin "1"
+			(uuid "a00901ab-1831-42c5-b84d-def8f2f20020")
+		)
+		(instances
+			(project "PonchoRema"
+				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 46.99 0)
 		(unit 1)
@@ -9916,74 +9552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 87.63 41.91 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e49574e8-334f-4f06-aff4-5e0f95b7a6b9")
-		(property "Reference" "#PWR065"
-			(at 87.63 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 87.63 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e829b7fa-c813-4956-9b60-326c7adac194")
-		)
-		(instances
-			(project "PonchoRema"
-				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 185.42 123.19 0)
+		(at 180.34 123.19 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9991,7 +9561,7 @@
 		(dnp no)
 		(uuid "e4c0df38-3af3-4a9f-9e19-8e6928b56c33")
 		(property "Reference" "#PWR038"
-			(at 185.42 129.54 0)
+			(at 180.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +9570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 127 0)
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +9578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 123.19 0)
+			(at 180.34 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,7 +9587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 123.19 0)
+			(at 180.34 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +9596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 123.19 0)
+			(at 180.34 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,6 +9760,74 @@
 			(project "PonchoRema"
 				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 172.72 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebe88ee5-3a6f-4518-979c-3136b14ded9d")
+		(property "Reference" "SW1"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1585cdec-bdc3-4157-be27-9487c8b8c6d1")
+		)
+		(pin "1"
+			(uuid "a61fd47c-035f-4822-ab43-7cbdc384abce")
+		)
+		(instances
+			(project "PonchoRema"
+				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/2878f7e1-5ffb-47b6-a169-135caa320801"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

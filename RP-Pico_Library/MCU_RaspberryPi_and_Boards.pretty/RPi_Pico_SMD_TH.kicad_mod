@@ -1915,18 +1915,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "aadc3df5-0e2d-4f3d-b72e-6f184da74c89")
 	)
-	(model "C:/Users/ncara/OneDrive/IoT/Tools/KiCad/RP-Pico Libraries/Pico.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1.4 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/RP-Pico Libraries/Pico.wrl"
+	(model "${KIPRJMOD}/RP-Pico_Library/Pico.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

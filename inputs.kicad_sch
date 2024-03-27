@@ -592,6 +592,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -2299,6 +2401,12 @@
 		(uuid "964b2860-4236-494e-a7cb-5a4edbca69e9")
 	)
 	(junction
+		(at 101.6 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98f78746-c0d5-4f0c-9fd9-6d0d09019ccf")
+	)
+	(junction
 		(at 67.31 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2321,6 +2429,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2641a9a-9c41-493e-93fb-7342c2da50a9")
+	)
+	(junction
+		(at 114.3 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6bd4115-11dc-427b-a3db-a3770f00872c")
 	)
 	(junction
 		(at 67.31 97.79)
@@ -3184,6 +3298,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 228.6) (xy 101.6 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4441c056-b211-4547-b91b-b8bb3119ec6b")
+	)
+	(wire
+		(pts
 			(xy 83.82 85.09) (xy 85.09 85.09)
 		)
 		(stroke
@@ -3591,6 +3715,16 @@
 			(type default)
 		)
 		(uuid "64b46bdf-b260-47f0-953e-85f0b3444efb")
+	)
+	(wire
+		(pts
+			(xy 95.25 232.41) (xy 95.25 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b58d87-8bb3-41fd-a028-1de8d67146fb")
 	)
 	(wire
 		(pts
@@ -4264,6 +4398,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 229.87) (xy 121.92 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d8f679-4c4a-44ab-8495-8c72d954d431")
+	)
+	(wire
+		(pts
 			(xy 67.31 120.65) (xy 81.28 120.65)
 		)
 		(stroke
@@ -4291,6 +4435,16 @@
 			(type default)
 		)
 		(uuid "9a01a2aa-96af-4609-899a-f001f345023f")
+	)
+	(wire
+		(pts
+			(xy 114.3 231.14) (xy 121.92 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af9d723-5771-4036-ab17-7303e5f1a68f")
 	)
 	(wire
 		(pts
@@ -4524,6 +4678,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 231.14) (xy 114.3 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b395424c-e4e6-4708-8a31-fe8192dad8df")
+	)
+	(wire
+		(pts
 			(xy 158.75 143.51) (xy 171.45 143.51)
 		)
 		(stroke
@@ -4571,16 +4735,6 @@
 			(type default)
 		)
 		(uuid "b9bbcc0a-b502-4037-9fb7-98a15329d025")
-	)
-	(wire
-		(pts
-			(xy 101.6 228.6) (xy 101.6 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f90225-e375-4802-95f2-008043484863")
 	)
 	(wire
 		(pts
@@ -4741,6 +4895,16 @@
 			(type default)
 		)
 		(uuid "ca25ff29-ff12-493a-9968-f62925dbe7fe")
+	)
+	(wire
+		(pts
+			(xy 95.25 232.41) (xy 101.6 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca830909-73b0-47c5-9d8d-85acafd41ffb")
 	)
 	(wire
 		(pts
@@ -5214,7 +5378,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 231.14) (xy 114.3 232.41)
+			(xy 114.3 229.87) (xy 114.3 231.14)
 		)
 		(stroke
 			(width 0)
@@ -5281,6 +5445,16 @@
 			(type default)
 		)
 		(uuid "fae94e2d-f2cc-48d9-b87d-1f98156c52c2")
+	)
+	(wire
+		(pts
+			(xy 101.6 232.41) (xy 101.6 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb301af6-a03e-4ce1-8ef4-3bcf168301d1")
 	)
 	(wire
 		(pts
@@ -6914,7 +7088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 137.16 238.76 0)
 			(effects
 				(font
@@ -7018,7 +7192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 143.51 0)
 			(effects
 				(font
@@ -7451,7 +7625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 212.09 0)
 			(effects
 				(font
@@ -8107,7 +8281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 73.66 251.46 0)
 			(effects
 				(font
@@ -8211,7 +8385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 166.37 0)
 			(effects
 				(font
@@ -10757,7 +10931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 52.07 251.46 0)
 			(effects
 				(font
@@ -11117,7 +11291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -11490,7 +11664,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 114.3 231.14 0)
+		(at 114.3 229.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11499,7 +11673,7 @@
 		(dnp no)
 		(uuid "538bb076-5332-428e-9201-45323f87a4e2")
 		(property "Reference" "#FLG01"
-			(at 114.3 229.235 0)
+			(at 114.3 227.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +11682,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 114.3 226.822 0)
+			(at 114.3 225.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +11690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 231.14 0)
+			(at 114.3 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11525,7 +11699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 231.14 0)
+			(at 114.3 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +11708,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 114.3 231.14 0)
+			(at 114.3 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,7 +12266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 212.09 0)
 			(effects
 				(font
@@ -12638,7 +12812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 189.23 0)
 			(effects
 				(font
@@ -13108,7 +13282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 31.75 250.19 0)
 			(effects
 				(font
@@ -13407,6 +13581,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 229.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b6c2013-b37d-4f6c-ba70-e46711030b6d")
+		(property "Reference" "TP3"
+			(at 90.17 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.79 227.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 100.33 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1cd8033-dbf7-4f76-80d2-d19728e77f22")
+		)
+		(instances
+			(project "PonchoRema"
+				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/56bfcc8e-8e30-4859-b113-c5cc464fdb5a"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 82.55 0)
 		(mirror y)
@@ -13481,7 +13722,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 232.41 0)
+		(at 114.3 234.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -13491,7 +13732,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cb877c4-09fc-4848-a24e-a566e5c61f53")
 		(property "Reference" "#PWR063"
-			(at 114.3 238.76 0)
+			(at 114.3 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,7 +13741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 237.49 0)
+			(at 114.3 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13508,7 +13749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 232.41 0)
+			(at 114.3 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13517,7 +13758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 232.41 0)
+			(at 114.3 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13526,7 +13767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 232.41 0)
+			(at 114.3 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14051,7 +14292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 97.79 0)
 			(effects
 				(font
@@ -14814,7 +15055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 74.93 0)
 			(effects
 				(font
@@ -15549,7 +15790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 53.34 0)
 			(effects
 				(font
@@ -15909,7 +16150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 143.51 0)
 			(effects
 				(font
@@ -16196,7 +16437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 74.93 0)
 			(effects
 				(font
@@ -17000,7 +17241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 53.34 0)
 			(effects
 				(font
@@ -17104,7 +17345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -17208,7 +17449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 120.65 0)
 			(effects
 				(font
@@ -17429,6 +17670,73 @@
 			(project "PicoWaterTankLevelHW"
 				(path "/e7ab3b36-5641-4c68-98d7-910c9b0eabc6"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 229.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce4bc738-3b37-4724-9fe2-b8cb318a4bc1")
+		(property "Reference" "TP0"
+			(at 123.19 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 227.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 127 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c07547b4-75e6-4a8e-ae5a-45be0847cc61")
+		)
+		(instances
+			(project "PonchoRema"
+				(path "/5eaa4ad0-b04c-4c59-839d-734ec887be48/56bfcc8e-8e30-4859-b113-c5cc464fdb5a"
+					(reference "TP0")
 					(unit 1)
 				)
 			)
@@ -17825,7 +18133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 88.9 166.37 0)
 			(effects
 				(font
@@ -18847,7 +19155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 179.07 189.23 0)
 			(effects
 				(font
@@ -19061,7 +19369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 176.53 238.76 0)
 			(effects
 				(font
