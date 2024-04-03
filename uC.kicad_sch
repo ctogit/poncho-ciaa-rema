@@ -4313,7 +4313,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 41.91) (xy 109.22 41.91)
+			(xy 115.57 41.91) (xy 106.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4333,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 39.37) (xy 110.49 39.37)
+			(xy 106.68 39.37) (xy 110.49 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4873,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 44.45) (xy 110.49 44.45)
+			(xy 106.68 44.45) (xy 110.49 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8217,7 +8217,7 @@
 				)
 			)
 		)
-		(property "Value" "LedRed"
+		(property "Value" "SPI_ERR"
 			(at 175.26 213.36 90)
 			(effects
 				(font
@@ -9259,7 +9259,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 104.14 41.91 0)
+		(at 101.6 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9268,7 +9268,7 @@
 		(dnp no)
 		(uuid "9b70d691-ab35-40ba-a592-e16e777d8f21")
 		(property "Reference" "J7"
-			(at 105.41 35.56 0)
+			(at 102.87 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,18 +9276,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 110.109 33.401 0)
+		(property "Value" "1W"
+			(at 102.87 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 104.14 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +9304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +9658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -10062,23 +10061,22 @@
 		(dnp no)
 		(uuid "ebe88ee5-3a6f-4518-979c-3136b14ded9d")
 		(property "Reference" "SW1"
-			(at 172.72 115.57 0)
+			(at 172.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 172.72 115.57 0)
+		(property "Value" "PICO-RST"
+			(at 172.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 172.72 115.57 0)
 			(effects
 				(font
