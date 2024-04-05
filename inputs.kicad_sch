@@ -8135,7 +8135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 176.53 0)
 			(effects
 				(font
@@ -8567,7 +8567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 199.39 0)
 			(effects
 				(font
@@ -10253,7 +10253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 222.25 0)
 			(effects
 				(font
@@ -11238,7 +11238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -12772,7 +12772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 176.53 0)
 			(effects
 				(font
@@ -13550,7 +13550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 153.67 0)
 			(effects
 				(font
@@ -13660,7 +13660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 107.95 0)
 			(effects
 				(font
@@ -16308,7 +16308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 153.67 0)
 			(effects
 				(font
@@ -17016,7 +17016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 222.25 0)
 			(effects
 				(font
@@ -17126,7 +17126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -18425,7 +18425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 130.81 0)
 			(effects
 				(font
@@ -18858,7 +18858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -19288,7 +19288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 85.09 0)
 			(effects
 				(font
@@ -19995,7 +19995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 199.39 0)
 			(effects
 				(font
@@ -22690,7 +22690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -22978,7 +22978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 50.8 107.95 0)
 			(effects
 				(font
