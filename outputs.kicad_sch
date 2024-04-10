@@ -4890,15 +4890,15 @@
 		(fields_autoplaced yes)
 		(uuid "00272488-e89f-40ea-9a45-2f328afa19db")
 		(property "Reference" "U10"
-			(at 68.58 104.902 0)
+			(at 68.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ULN2004"
-			(at 68.58 107.442 0)
+		(property "Value" "ULN2003A"
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,15 +6286,15 @@
 		(fields_autoplaced yes)
 		(uuid "80538b5e-9d5b-4a41-ba9b-f3648e3a119e")
 		(property "Reference" "U9"
-			(at 68.58 143.51 0)
+			(at 68.58 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ULN2004"
-			(at 68.58 146.05 0)
+		(property "Value" "ULN2003A"
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
