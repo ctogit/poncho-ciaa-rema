@@ -7262,7 +7262,7 @@
 		)
 		(uuid "80be7dbe-d07a-4ad0-90f3-e572254f498a")
 	)
-	(text "ZSw-"
+	(text "TProbe"
 		(exclude_from_sim no)
 		(at 104.14 180.34 0)
 		(effects
@@ -7372,7 +7372,7 @@
 		)
 		(uuid "d04e4930-cfda-4407-8b53-788095c132dd")
 	)
-	(text "ZSw+"
+	(text "Spare"
 		(exclude_from_sim no)
 		(at 104.14 182.88 0)
 		(effects
